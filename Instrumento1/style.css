@@ -1,0 +1,221 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+
+body{
+    width: 99vw;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQstJh3D2mY1IZaPUU8w-z70OCaFlrLv_gzOw&usqp=CAU);
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.header{
+    width: 90%;
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQstJh3D2mY1IZaPUU8w-z70OCaFlrLv_gzOw&usqp=CAU);
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.cocktail{
+    width: 15rem;
+    height: 15rem;
+}
+
+.information1{
+    width: 100%;
+    height: 40%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-top: 12px;
+}
+.information2{
+    width: 100%;
+    height: 60%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.information2 > p{
+    width: 50%;
+    font-size: 32px;
+    color: rgb(146, 56, 0);
+    text-shadow: 1px 1px rgb(128, 105, 105);
+    margin-bottom: 30px;
+}
+
+/* .title{
+    margin: 80px 1px 50px 1px;
+    font-style: oblique;
+    font-family: 'Bilbo Swash Caps', cursive;
+    text-shadow: black;
+}
+
+.title span{
+    font-size: 150px;
+    font-weight: bold;
+    position: relative;
+    cursor: pointer;
+    transition: all 500ms ease-in-out;
+}
+
+.title span::before{
+    content: var(--l);
+    position: absolute;
+    transform: scale(1.1);
+    filter: blur(15px);
+}
+
+.title span::after{
+    content: var(--l);
+    position: absolute;
+    top: 10%;
+    filter: blur(120px);
+    transform: scale(1.6);
+    transform: rotateX('50deg');
+}
+
+.title span:hover{
+    filter: contrast(5500%);
+}
+
+.title span:nth-child(1){
+    color: #c40303;
+}
+.title span:nth-child(2){
+    color: #0048ff;
+}
+.title span:nth-child(3){
+    color: #d704a2;
+}
+.title span:nth-child(4){
+    color: #ff8800;
+}
+.title span:nth-child(5){
+    color: #cebd07;
+}
+.title span:nth-child(6){
+    color: #09a833;
+}
+.title span:nth-child(7){
+    color: #08cf93b0;
+}
+.title span:nth-child(8){
+    color: #c40303;
+}
+.title span:nth-child(9){
+    color: #a200ff;
+}
+.title span:nth-child(10){
+    color: #fdefef;
+}
+.title span:nth-child(11){
+    color: #09a833;
+}
+.title span:nth-child(12){
+    color: #cebd07;
+}
+.title span:nth-child(12){
+    color: #f8f6e4;
+} */
+
+h1{
+    font-size: 45px;
+    color: rgb(249, 81, 29);
+    font-style: oblique;
+    font-family: 'Bilbo Swash Caps', cursive;
+    text-shadow: 2px 2px rgb(67, 1, 1);
+    font-size: 120px;
+}
+
+#input_search{
+    width: 60%;
+    height: 18%;
+    text-align: center;
+    font-size: 40px;
+    font-style: oblique;
+    border-radius: 50px;
+    margin: 30px;
+    border: double rgb(160, 53, 0);
+    color: rgb(255, 136, 0);
+}
+
+#input_search::placeholder { color: rgb(250, 150, 84); font-style: oblique; }
+
+.separator{
+    width: 80%;
+    height: 4px;
+    border-radius: 2px;
+}
+
+#container{
+    width: 88%;
+    height: 100%;
+    background-color: transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    /* background-image: url(https://www.drinksco.es/blog/assets/uploads/sites/2/2020/05/cocktail-3327242_1920-1170x780.jpg);
+    background-attachment: fixed;
+    background-size: cover; */
+}
+
+.div{
+    width: 25rem;
+    height: 25rem;
+    /* background: linear-gradient(#ba0000,rgb(251, 118, 2)); */
+    background-color: transparent;
+    margin: 82px 30px 50px 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.name{
+    font-size: 45px;
+    font-style: oblique;
+    color: brown;
+}
+
+.img{
+    width: 22rem;
+    height: 24rem;
+    border-radius: 30px;
+    margin: 5px;
+    border: 3px double rgb(255, 98, 0);
+}
+
+#footer{
+    margin: 20px;
+    font-size: 30px;
+    color: rgb(119, 1, 1);
+    font-style: oblique;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#git{
+    text-decoration: none;
+    color: rgb(119, 42, 1);
+}
+#git :hover{
+    color: #a200ff;
+}
